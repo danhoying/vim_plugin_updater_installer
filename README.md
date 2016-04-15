@@ -5,14 +5,14 @@ A simple way to update and install your Vim plugins using Bash scripts.
 Requires a Ruby and Git installation.
 
 *These scripts require that you are using a default pathogen.vim installation or your Vim plugins are within the directory* 
+
 <code>~/.vim/bundle</code>.
 
 **Installation**
 
 Install directly into the ~/.vim directory.
 
-<code>cd ~/.vim && \
-git clone https://github.com/danhoying/vim_plugin_updater_installer.git</code>
+<code>cd ~/.vim && \ git clone https://github.com/danhoying/vim_plugin_updater_installer.git</code>
 
 **Usage**
 
