@@ -12,7 +12,8 @@ Requires a Ruby and Git installation.
 
 Install directly into the ~/.vim directory.
 
-<code>cd ~/.vim && \ git clone https://github.com/danhoying/vim_plugin_updater_installer.git</code>
+<code>cd ~/.vim && \</code>
+<code>git clone https://github.com/danhoying/vim_plugin_updater_installer.git</code>
 
 **Usage**
 
