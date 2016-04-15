@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Update plugin_list.txt and all Vim plugins.
+ruby update_list.rb
+for i in ~/.vim/bundle/*; do git -C $i pull; done

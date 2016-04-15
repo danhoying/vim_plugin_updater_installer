@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Install all Vim plugins by reading from plugin_list.txt.
+cd ".."
+if [ ! -d "~/.vim/bundle" ]; then
+  mkdir "bundle"
+fi
+cd "vim_plugin_updater_installer"
+
+plugins=()
+while read url 
+do
+  plugins=(${plugins[@]} $url)
+done < plugin_list.txt
+
+cd ".."
+cd "bundle"
+for i in "${plugins[@]}"; do git clone $i; done
